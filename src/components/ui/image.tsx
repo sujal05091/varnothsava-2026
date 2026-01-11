@@ -3,7 +3,7 @@ import { forwardRef, type ImgHTMLAttributes, useEffect, useImperativeHandle, use
 import { useSize } from '@/hooks/use-size'
 import './image.css'
 
-const FALLBACK_IMAGE_URL = "/src/images/logo.png";
+const FALLBACK_IMAGE_URL = "/images/logo.png";
 
 type ImageData = {
   id: string

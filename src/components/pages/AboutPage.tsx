@@ -47,7 +47,7 @@ export default function AboutPage() {
         className="fixed inset-0 w-full h-full opacity-20 pointer-events-none z-0"
         style={{ objectFit: 'cover' }}
       >
-        <source src="/src/lottie/Celebration.webm" type="video/webm" />
+        <source src="/lottie/Celebration.webm" type="video/webm" />
       </video>
 
       {/* Starry Background Animation - Left */}
@@ -59,7 +59,7 @@ export default function AboutPage() {
         className="fixed left-0 top-0 h-full w-auto opacity-30 pointer-events-none z-0"
         style={{ objectFit: 'cover' }}
       >
-        <source src="/src/lottie/Starry.webm" type="video/webm" />
+        <source src="/lottie/Starry.webm" type="video/webm" />
       </video>
 
       {/* Starry Background Animation - Right */}
@@ -71,7 +71,7 @@ export default function AboutPage() {
         className="fixed right-0 top-0 h-full w-auto opacity-30 pointer-events-none z-0"
         style={{ objectFit: 'cover' }}
       >
-        <source src="/src/lottie/Starry.webm" type="video/webm" />
+        <source src="/lottie/Starry.webm" type="video/webm" />
       </video>
 
       {/* Confetti Animation - Top Left */}
@@ -83,7 +83,7 @@ export default function AboutPage() {
         className="fixed left-0 top-0 w-64 h-64 opacity-40 pointer-events-none z-0"
         style={{ objectFit: 'cover' }}
       >
-        <source src="/src/lottie/confetti (1).webm" type="video/webm" />
+        <source src="/lottie/confetti (1).webm" type="video/webm" />
       </video>
 
       {/* Confetti Animation - Top Right */}
@@ -95,7 +95,7 @@ export default function AboutPage() {
         className="fixed right-0 top-0 w-64 h-64 opacity-40 pointer-events-none z-0"
         style={{ objectFit: 'cover' }}
       >
-        <source src="/src/lottie/confetti (1).webm" type="video/webm" />
+        <source src="/lottie/confetti (1).webm" type="video/webm" />
       </video>
 
       <Header />
@@ -245,7 +245,7 @@ export default function AboutPage() {
                         className="mt-6 block rounded-lg overflow-hidden border-2 border-neon-green/30 hover:border-neon-green transition-colors"
                       >
                         <img
-                          src="/src/images/map.png"
+                          src="/images/map.png"
                           alt="SMVITM Campus Map"
                           className="w-full h-48 object-cover"
                         />
@@ -328,7 +328,7 @@ export default function AboutPage() {
               className="block relative group"
             >
               <img
-                src="/src/images/campus.jpg"
+                src="/images/campus.jpg"
                 alt="SMVITM Campus"
                 className="w-full aspect-video object-cover transition-transform duration-300 group-hover:scale-105"
               />

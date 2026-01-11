@@ -170,7 +170,7 @@ export default function HomePage() {
           <div className="absolute top-0 left-1/4 w-[500px] h-[500px] bg-neon-green/10 rounded-full blur-[120px] mix-blend-screen" />
           <div className="absolute bottom-0 right-1/4 w-[600px] h-[600px] bg-neon-blue/10 rounded-full blur-[120px] mix-blend-screen" />
           <img 
-            src="/src/images/logo.png" 
+            src="/images/logo.png" 
             alt="Varnothsava Background" 
             className="w-full h-full object-cover opacity-10 mix-blend-overlay"
           />
@@ -184,7 +184,7 @@ export default function HomePage() {
           playsInline
           className="absolute left-0 top-1/2 -translate-y-1/2 h-[80vh] w-auto opacity-60 z-10 pointer-events-none"
         >
-          <source src="/src/lottie/Fireworks.webm" type="video/webm" />
+          <source src="/lottie/Fireworks.webm" type="video/webm" />
         </video>
 
         {/* Fireworks Video - Right Side */}
@@ -195,7 +195,7 @@ export default function HomePage() {
           playsInline
           className="absolute right-0 top-1/2 -translate-y-1/2 h-[80vh] w-auto opacity-60 z-10 pointer-events-none scale-x-[-1]"
         >
-          <source src="/src/lottie/Fireworks.webm" type="video/webm" />
+          <source src="/lottie/Fireworks.webm" type="video/webm" />
         </video>
 
         {/* Fireworks1 Video - Top Left */}
@@ -206,7 +206,7 @@ export default function HomePage() {
           playsInline
           className="absolute left-10 top-10 h-[50vh] w-auto opacity-50 z-10 pointer-events-none"
         >
-          <source src="/src/lottie/fireworks1.webm" type="video/webm" />
+          <source src="/lottie/fireworks1.webm" type="video/webm" />
         </video>
 
         {/* Fireworks1 Video - Top Right */}
@@ -217,7 +217,7 @@ export default function HomePage() {
           playsInline
           className="absolute right-10 top-10 h-[50vh] w-auto opacity-50 z-10 pointer-events-none scale-x-[-1]"
         >
-          <source src="/src/lottie/fireworks1.webm" type="video/webm" />
+          <source src="/lottie/fireworks1.webm" type="video/webm" />
         </video>
 
         {/* Confetti Video - Full Screen Overlay */}
@@ -228,7 +228,7 @@ export default function HomePage() {
           playsInline
           className="absolute inset-0 w-full h-full object-cover opacity-40 z-10 pointer-events-none mix-blend-screen"
         >
-          <source src="/src/lottie/Confetti.webm" type="video/webm" />
+          <source src="/lottie/Confetti.webm" type="video/webm" />
         </video>
 
         {/* Hero Content */}
@@ -244,7 +244,7 @@ export default function HomePage() {
             className="w-full max-w-7xl px-4"
           >
             <img
-              src="/src/images/logo.png"
+              src="/images/logo.png"
               alt="VARNOTHSAVA 2K26 Logo"
               className="w-full h-auto object-contain drop-shadow-2xl"
             />
@@ -313,7 +313,7 @@ export default function HomePage() {
                 <div className="absolute -inset-4 bg-gradient-to-r from-neon-green to-neon-blue opacity-20 blur-xl group-hover:opacity-40 transition-opacity duration-500" />
                 <div className="relative aspect-[16/9] overflow-hidden rounded-lg border border-white/10">
                   <Image 
-                    src="/src/images/dj1.webp" 
+                    src="/images/dj1.webp" 
                     alt="Crowd at concert" 
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   />
@@ -416,7 +416,7 @@ export default function HomePage() {
              className="w-full h-[120%]"
            >
              <Image 
-               src="/src/images/dj2.jpg" 
+               src="/images/dj2.jpg" 
                alt="Stage Lights" 
                className="w-full h-full object-cover"
              />

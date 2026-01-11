@@ -3,32 +3,32 @@
 // Dummy data for collections
 const dummyData: Record<string, any[]> = {
   events: [
-    { _id: '1', eventName: 'Tech Workshop', eventDescription: 'Hands-on technology workshop', eventDate: '2026-03-15', eventTime: '10:00', eventLocation: 'Tech Lab', eventImage: '/src/images/techworkshop.webp', eventPrice: 299 },
-    { _id: '2', eventName: 'Music Concert', eventDescription: 'Live music performance', eventDate: '2026-03-15', eventTime: '18:00', eventLocation: 'Main Stage', eventImage: '/src/images/music_concert.jpg', eventPrice: 399 },
-    { _id: '3', eventName: 'Art Exhibition', eventDescription: 'Contemporary art showcase', eventDate: '2026-03-16', eventTime: '11:00', eventLocation: 'Art Gallery', eventImage: '/src/images/art_exbi.png', eventPrice: 99 },
-    { _id: '4', eventName: 'Dance Competition', eventDescription: 'Inter-college dance battle', eventDate: '2026-03-16', eventTime: '15:00', eventLocation: 'Auditorium', eventImage: '/src/images/dance.jpg', eventPrice: 199 },
-    { _id: '5', eventName: 'Free Fire Tournament', eventDescription: 'E-sports championship', eventDate: '2026-03-17', eventTime: '09:00', eventLocation: 'Gaming Arena', eventImage: '/src/images/ff1.png', eventPrice: 299 },
-    { _id: '6', eventName: 'Fashion Show', eventDescription: 'Student fashion showcase', eventDate: '2026-03-17', eventTime: '19:00', eventLocation: 'Main Stage', eventImage: '/src/images/fasion.jpeg', eventPrice: 299 },
-    { _id: '7', eventName: 'Stand-up Comedy', eventDescription: 'Professional comedians live', eventDate: '2026-03-15', eventTime: '20:00', eventLocation: 'Comedy Club', eventImage: '/src/images/stand.jpg', eventPrice: 199 },
-    { _id: '8', eventName: 'Photography Workshop', eventDescription: 'Learn mobile photography', eventDate: '2026-03-16', eventTime: '09:00', eventLocation: 'Media Lab', eventImage: '/src/images/photo.avif', eventPrice: 149 },
-    { _id: '9', eventName: 'Battle of Bands', eventDescription: 'Rock band competition', eventDate: '2026-03-16', eventTime: '18:00', eventLocation: 'Open Air Stage', eventImage: '/src/images/bands.jpg', eventPrice: 249 },
-    { _id: '10', eventName: 'Poetry Slam', eventDescription: 'Spoken word competition', eventDate: '2026-03-17', eventTime: '14:00', eventLocation: 'Literature Hall', eventImage: '/src/images/poo.png', eventPrice: 299 },
-    { _id: '11', eventName: 'DJ Night', eventDescription: 'Electronic dance music party', eventDate: '2026-03-17', eventTime: '21:00', eventLocation: 'Main Stage', eventImage: '/src/images/night.jpg', eventPrice: 350 },
-    { _id: '12', eventName: 'Treasure Hunt', eventDescription: 'Campus-wide adventure game', eventDate: '2026-03-16', eventTime: '10:00', eventLocation: 'Entire Campus', eventImage: '/src/images/tre.jpg', eventPrice: 199 }
+    { _id: '1', eventName: 'Tech Workshop', eventDescription: 'Hands-on technology workshop', eventDate: '2026-03-15', eventTime: '10:00', eventLocation: 'Tech Lab', eventImage: '/images/techworkshop.webp', eventPrice: 299 },
+    { _id: '2', eventName: 'Music Concert', eventDescription: 'Live music performance', eventDate: '2026-03-15', eventTime: '18:00', eventLocation: 'Main Stage', eventImage: '/images/music_concert.jpg', eventPrice: 399 },
+    { _id: '3', eventName: 'Art Exhibition', eventDescription: 'Contemporary art showcase', eventDate: '2026-03-16', eventTime: '11:00', eventLocation: 'Art Gallery', eventImage: '/images/art_exbi.png', eventPrice: 99 },
+    { _id: '4', eventName: 'Dance Competition', eventDescription: 'Inter-college dance battle', eventDate: '2026-03-16', eventTime: '15:00', eventLocation: 'Auditorium', eventImage: '/images/dance.jpg', eventPrice: 199 },
+    { _id: '5', eventName: 'Free Fire Tournament', eventDescription: 'E-sports championship', eventDate: '2026-03-17', eventTime: '09:00', eventLocation: 'Gaming Arena', eventImage: '/images/ff1.png', eventPrice: 299 },
+    { _id: '6', eventName: 'Fashion Show', eventDescription: 'Student fashion showcase', eventDate: '2026-03-17', eventTime: '19:00', eventLocation: 'Main Stage', eventImage: '/images/fasion.jpeg', eventPrice: 299 },
+    { _id: '7', eventName: 'Stand-up Comedy', eventDescription: 'Professional comedians live', eventDate: '2026-03-15', eventTime: '20:00', eventLocation: 'Comedy Club', eventImage: '/images/stand.jpg', eventPrice: 199 },
+    { _id: '8', eventName: 'Photography Workshop', eventDescription: 'Learn mobile photography', eventDate: '2026-03-16', eventTime: '09:00', eventLocation: 'Media Lab', eventImage: '/images/photo.avif', eventPrice: 149 },
+    { _id: '9', eventName: 'Battle of Bands', eventDescription: 'Rock band competition', eventDate: '2026-03-16', eventTime: '18:00', eventLocation: 'Open Air Stage', eventImage: '/images/bands.jpg', eventPrice: 249 },
+    { _id: '10', eventName: 'Poetry Slam', eventDescription: 'Spoken word competition', eventDate: '2026-03-17', eventTime: '14:00', eventLocation: 'Literature Hall', eventImage: '/images/poo.png', eventPrice: 299 },
+    { _id: '11', eventName: 'DJ Night', eventDescription: 'Electronic dance music party', eventDate: '2026-03-17', eventTime: '21:00', eventLocation: 'Main Stage', eventImage: '/images/night.jpg', eventPrice: 350 },
+    { _id: '12', eventName: 'Treasure Hunt', eventDescription: 'Campus-wide adventure game', eventDate: '2026-03-16', eventTime: '10:00', eventLocation: 'Entire Campus', eventImage: '/images/tre.jpg', eventPrice: 199 }
   ],
   galleryphotos: [
-    { _id: '1', photoFile: '/src/images/cul.jpg', title: 'Previous Event 1', description: 'Amazing moments captured', uploadDate: '2025-12-01', photographer: 'John Doe', eventTag: 'cultural' },
-    { _id: '2', photoFile: '/src/images/line.webp', title: 'Previous Event 2', description: 'Memorable performances', uploadDate: '2025-12-02', photographer: 'Jane Smith', eventTag: 'technical' },
-    { _id: '3', photoFile: '/src/images/spo2.webp', title: 'Previous Event 3', description: 'Community gathering', uploadDate: '2025-12-03', photographer: 'Bob Wilson', eventTag: 'sports' },
-    { _id: '4', photoFile: '/src/images/cul2.jpg', title: 'Previous Event 4', description: 'Festival highlights', uploadDate: '2025-12-04', photographer: 'Alice Brown', eventTag: 'cultural' },
-    { _id: '5', photoFile: '/src/images/robo.jpg', title: 'Previous Event 5', description: 'Student activities', uploadDate: '2025-12-05', photographer: 'Charlie Davis', eventTag: 'technical' },
-    { _id: '6', photoFile: '/src/images/cri.webp', title: 'Previous Event 6', description: 'Campus celebrations', uploadDate: '2025-12-06', photographer: 'Diana Moore', eventTag: 'sports' },
-    { _id: '7', photoFile: '/src/images/dan.png', title: 'Dance Performance', description: 'Energetic dance showcase', uploadDate: '2025-12-07', photographer: 'Eva Martinez', eventTag: 'cultural' },
-    { _id: '8', photoFile: '/src/images/tec.jpg', title: 'Tech Exhibition', description: 'Innovation on display', uploadDate: '2025-12-08', photographer: 'Frank Johnson', eventTag: 'technical' },
-    { _id: '9', photoFile: '/src/images/sing.jpg', title: 'Music Festival', description: 'Live band performances', uploadDate: '2025-12-09', photographer: 'Grace Lee', eventTag: 'cultural' },
-    { _id: '10', photoFile: '/src/images/gam.jpg', title: 'Gaming Arena', description: 'E-sports action shots', uploadDate: '2025-12-10', photographer: 'Henry Chen', eventTag: 'technical' },
-    { _id: '11', photoFile: '/src/images/spo1.jpg', title: 'Sports Day', description: 'Athletic competitions', uploadDate: '2025-12-11', photographer: 'Iris Wang', eventTag: 'sports' },
-    { _id: '12', photoFile: '/src/images/art.webp', title: 'Art Gallery', description: 'Creative expressions', uploadDate: '2025-12-12', photographer: 'Jack Robinson', eventTag: 'cultural' }
+    { _id: '1', photoFile: '/images/cul.jpg', title: 'Previous Event 1', description: 'Amazing moments captured', uploadDate: '2025-12-01', photographer: 'John Doe', eventTag: 'cultural' },
+    { _id: '2', photoFile: '/images/line.webp', title: 'Previous Event 2', description: 'Memorable performances', uploadDate: '2025-12-02', photographer: 'Jane Smith', eventTag: 'technical' },
+    { _id: '3', photoFile: '/images/spo2.webp', title: 'Previous Event 3', description: 'Community gathering', uploadDate: '2025-12-03', photographer: 'Bob Wilson', eventTag: 'sports' },
+    { _id: '4', photoFile: '/images/cul2.jpg', title: 'Previous Event 4', description: 'Festival highlights', uploadDate: '2025-12-04', photographer: 'Alice Brown', eventTag: 'cultural' },
+    { _id: '5', photoFile: '/images/robo.jpg', title: 'Previous Event 5', description: 'Student activities', uploadDate: '2025-12-05', photographer: 'Charlie Davis', eventTag: 'technical' },
+    { _id: '6', photoFile: '/images/cri.webp', title: 'Previous Event 6', description: 'Campus celebrations', uploadDate: '2025-12-06', photographer: 'Diana Moore', eventTag: 'sports' },
+    { _id: '7', photoFile: '/images/dan.png', title: 'Dance Performance', description: 'Energetic dance showcase', uploadDate: '2025-12-07', photographer: 'Eva Martinez', eventTag: 'cultural' },
+    { _id: '8', photoFile: '/images/tec.jpg', title: 'Tech Exhibition', description: 'Innovation on display', uploadDate: '2025-12-08', photographer: 'Frank Johnson', eventTag: 'technical' },
+    { _id: '9', photoFile: '/images/sing.jpg', title: 'Music Festival', description: 'Live band performances', uploadDate: '2025-12-09', photographer: 'Grace Lee', eventTag: 'cultural' },
+    { _id: '10', photoFile: '/images/gam.jpg', title: 'Gaming Arena', description: 'E-sports action shots', uploadDate: '2025-12-10', photographer: 'Henry Chen', eventTag: 'technical' },
+    { _id: '11', photoFile: '/images/spo1.jpg', title: 'Sports Day', description: 'Athletic competitions', uploadDate: '2025-12-11', photographer: 'Iris Wang', eventTag: 'sports' },
+    { _id: '12', photoFile: '/images/art.webp', title: 'Art Gallery', description: 'Creative expressions', uploadDate: '2025-12-12', photographer: 'Jack Robinson', eventTag: 'cultural' }
   ],
   schedule: [
     { _id: '1', eventName: 'Opening Ceremony', description: 'Grand opening with chief guest', eventDate: '2026-03-15', eventTime: '09:00 AM - 10:00 AM', location: 'Main Auditorium', category: 'Ceremony' },
@@ -54,18 +54,18 @@ const dummyData: Record<string, any[]> = {
     { _id: '6', question: 'Is food available on campus?', answer: 'Yes, multiple food stalls and canteens will be operational throughout the festival.', category: 'facilities', isFeatured: false, displayOrder: 6 }
   ],
   sponsors: [
-    { _id: '1', name: 'Google India', logo: '/src/images/google.png', websiteUrl: 'https://google.com', tier: 'Platinum', description: 'Leading technology company' },
-    { _id: '2', name: 'Tata Group', logo: '/src/images/tata.jpg', websiteUrl: 'https://tata.com', tier: 'Gold', description: 'Innovation and research partner' },
-    { _id: '3', name: 'Microsoft', logo: '/src/images/micro.jpg', websiteUrl: 'https://microsoft.com', tier: 'Gold', description: 'Creative design solutions' },
-    { _id: '4', name: 'T-Series', logo: '/src/images/tse.png', websiteUrl: 'https://tseries.com', tier: 'Silver', description: 'Music and entertainment' },
-    { _id: '5', name: 'Swiggy', logo: '/src/images/swig.png', websiteUrl: 'https://swiggy.com', tier: 'Silver', description: 'Food and beverage partner' },
-    { _id: '6', name: 'Nvidia', logo: '/src/images/nvidia.jpg', websiteUrl: 'https://nvidia.com', tier: 'Bronze', description: 'Official merchandise partner' }
+    { _id: '1', name: 'Google India', logo: '/images/google.png', websiteUrl: 'https://google.com', tier: 'Platinum', description: 'Leading technology company' },
+    { _id: '2', name: 'Tata Group', logo: '/images/tata.jpg', websiteUrl: 'https://tata.com', tier: 'Gold', description: 'Innovation and research partner' },
+    { _id: '3', name: 'Microsoft', logo: '/images/micro.jpg', websiteUrl: 'https://microsoft.com', tier: 'Gold', description: 'Creative design solutions' },
+    { _id: '4', name: 'T-Series', logo: '/images/tse.png', websiteUrl: 'https://tseries.com', tier: 'Silver', description: 'Music and entertainment' },
+    { _id: '5', name: 'Swiggy', logo: '/images/swig.png', websiteUrl: 'https://swiggy.com', tier: 'Silver', description: 'Food and beverage partner' },
+    { _id: '6', name: 'Nvidia', logo: '/images/nvidia.jpg', websiteUrl: 'https://nvidia.com', tier: 'Bronze', description: 'Official merchandise partner' }
   ],
   badges: [
-    { _id: '1', badgeName: 'Early Bird', badgeDescription: 'Registered in the first week', badgeImage: '/src/images/bird.webp', rarity: 'common', category: 'registration' },
-    { _id: '2', badgeName: 'Event Champion', badgeDescription: 'Won first place in any event', badgeImage: '/src/images/champ.jpg', rarity: 'rare', category: 'achievement' },
-    { _id: '3', badgeName: 'Social Butterfly', badgeDescription: 'Attended 5+ events', badgeImage: '/src/images/but.jpg', rarity: 'common', category: 'participation' },
-    { _id: '4', badgeName: 'Festival Legend', badgeDescription: 'Participated all 3 days', badgeImage: '/src/images/fest.jpg', rarity: 'epic', category: 'participation' }
+    { _id: '1', badgeName: 'Early Bird', badgeDescription: 'Registered in the first week', badgeImage: '/images/bird.webp', rarity: 'common', category: 'registration' },
+    { _id: '2', badgeName: 'Event Champion', badgeDescription: 'Won first place in any event', badgeImage: '/images/champ.jpg', rarity: 'rare', category: 'achievement' },
+    { _id: '3', badgeName: 'Social Butterfly', badgeDescription: 'Attended 5+ events', badgeImage: '/images/but.jpg', rarity: 'common', category: 'participation' },
+    { _id: '4', badgeName: 'Festival Legend', badgeDescription: 'Participated all 3 days', badgeImage: '/images/fest.jpg', rarity: 'epic', category: 'participation' }
   ]
 };
 

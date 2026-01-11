@@ -97,7 +97,7 @@ export default function GalleryPage() {
         className="fixed inset-0 w-full h-full opacity-20 pointer-events-none z-0"
         style={{ objectFit: 'cover' }}
       >
-        <source src="/src/lottie/Celebration.webm" type="video/webm" />
+        <source src="/lottie/Celebration.webm" type="video/webm" />
       </video>
 
       {/* Starry Background Animation - Left */}
@@ -109,7 +109,7 @@ export default function GalleryPage() {
         className="fixed left-0 top-0 h-full w-auto opacity-30 pointer-events-none z-0"
         style={{ objectFit: 'cover' }}
       >
-        <source src="/src/lottie/Starry.webm" type="video/webm" />
+        <source src="/lottie/Starry.webm" type="video/webm" />
       </video>
 
       {/* Starry Background Animation - Right */}
@@ -121,7 +121,7 @@ export default function GalleryPage() {
         className="fixed right-0 top-0 h-full w-auto opacity-30 pointer-events-none z-0"
         style={{ objectFit: 'cover' }}
       >
-        <source src="/src/lottie/Starry.webm" type="video/webm" />
+        <source src="/lottie/Starry.webm" type="video/webm" />
       </video>
 
       {/* Confetti Animation - Top Left */}
@@ -133,7 +133,7 @@ export default function GalleryPage() {
         className="fixed left-0 top-0 w-64 h-64 opacity-40 pointer-events-none z-0"
         style={{ objectFit: 'cover' }}
       >
-        <source src="/src/lottie/confetti (1).webm" type="video/webm" />
+        <source src="/lottie/confetti (1).webm" type="video/webm" />
       </video>
 
       {/* Confetti Animation - Top Right */}
@@ -145,7 +145,7 @@ export default function GalleryPage() {
         className="fixed right-0 top-0 w-64 h-64 opacity-40 pointer-events-none z-0"
         style={{ objectFit: 'cover' }}
       >
-        <source src="/src/lottie/confetti (1).webm" type="video/webm" />
+        <source src="/lottie/confetti (1).webm" type="video/webm" />
       </video>
 
       <Header />
