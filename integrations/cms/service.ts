@@ -1,5 +1,5 @@
 import { items } from "@/lib/wix-mocks";
-import { WixDataItem } from ".";
+import type { WixDataItem, WixDataQueryResult } from "./types";
 
 
 /**
@@ -46,7 +46,7 @@ export class BaseCrudService {
   static async getAll<T extends WixDataItem>(
     collectionId: string,
     includeReferencedItems?: string[]
-  ): Promise<items.WixDataResult<T>> {
+  ): Promise<WixDataQueryResult<T>> {
     try {
       let query = items.query(collectionId);
 
@@ -56,7 +56,7 @@ export class BaseCrudService {
       }
 
       const result = await query.find();
-      return result as items.WixDataResult<T>;
+      return result as WixDataQueryResult<T>;
     } catch (error) {
       console.error(`Error fetching ${collectionId}s:`, error);
       throw new Error(

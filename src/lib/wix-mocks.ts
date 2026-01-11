@@ -80,12 +80,14 @@ export const items = {
     include: function(...fields: string[]) { return this; },
   }),
   insert: async (collectionId: string, data: any) => ({ _id: 'mock-id', ...data }),
+  update: async (collectionId: string, data: any) => ({ _id: data._id || 'mock-id', ...data }),
+  remove: async (collectionId: string, itemId: string) => ({ _id: itemId }),
   insertReference: async (collectionId: string, propertyName: string, itemId: string, refIds: string[]) => ({}),
   WixDataResult: {} as any
 };
 
 export const members = {
-  getCurrentMember: async () => null
+  getCurrentMember: async (options?: any) => null
 };
 
 export const authentication = {

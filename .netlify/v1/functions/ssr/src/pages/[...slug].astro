@@ -1,0 +1,30 @@
+---
+export const prerender = false;
+
+import { SEO, loadSEOTagsServiceConfig } from '@/lib/wix-mocks';
+import { Head } from "@/components/Head";
+import AppRouter from "@/components/Router";
+import "@/styles/global.css";
+
+const seoTagsServiceConfig = await loadSEOTagsServiceConfig({
+  pageUrl: Astro.url.href,
+  itemData: {
+    pageName: 'Home',
+  },
+});
+---
+
+<!DOCTYPE html>
+<html lang="en" class="w-full h-full">
+  <head>
+    <Head />
+    <SEO.Tags seoTagsServiceConfig={seoTagsServiceConfig} slot="seo-tags" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body class="w-full h-full m-0 p-0">
+    <div id="root" class="w-full h-full">
+      <AppRouter client:only="react" />
+    </div>
+  </body>
+</html>
